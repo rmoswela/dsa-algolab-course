@@ -11,16 +11,16 @@
 
       List<string> list = new List<string>();
 
-      for (int count = 0; count < n; count++) {
-        if (n % 3 == 0 && n % 5 == 0)
+      for (int count = 1; count <= n; count++) {
+        if (count % 3 == 0 && count % 5 == 0)
         {
           list.Add("FizzBuzz");
         }
-        else if (n % 3 == 0)
+        else if (count % 3 == 0)
         {
           list.Add("Fizz");
         }
-        else if (n % 5 == 0)
+        else if (count % 5 == 0)
         {
           list.Add("Buzz");
         }

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4E3TlHJBC6mWVsGAF7NbzPwHzwb6JrSk7BHqZvX7gwTq1i4yco/teswU3mysv2rvK1foBcm7M9b3YsM6iCuvlg==",
+  "success": true,
+  "projectFilePath": "C:\\GiT - Personal\\dsa-algolab-course\\c#\\dsa-algolab\\dsa-algolab-course\\dsa-algolab-course.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://libget.mgsops.net/nuget/DerivcoLib'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

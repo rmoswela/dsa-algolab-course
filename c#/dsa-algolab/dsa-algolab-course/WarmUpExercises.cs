@@ -31,5 +31,18 @@
       }
       return list.ToArray();
     }
+
+    public bool Palindrome (int number)
+    {
+      int reverse = 0;
+      var tempVal = number;
+      while (tempVal != 0)
+      {
+        reverse = (reverse * 10) + (tempVal % 10);
+        tempVal = tempVal / 10;
+      }
+
+      return (reverse == number);
+    }
   }
 }
